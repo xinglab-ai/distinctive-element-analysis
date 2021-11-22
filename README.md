@@ -10,4 +10,14 @@ The human brain represents an object by small elements and distinguishes two obj
 
 <img src="im1.png">
 
+Figure 1. (a) 8 randomly selected images of diabetic retinopathy data (b-left to right) First 16 eigen faces (principle
+components). (c-left to right) 16 component Faces from NNMF. (d-left to right) 16 component Faces from DEA. The number
+of reduced components by all the methods was 32. Holistic representation is achieved in case of eigen faces. Part based
+representation is seen in NNMF faces. In case of DEA, we see that only distinctive features of the faces at different parts are
+seen. The level of distinction is can also be realized from DEA faces. NNMF faces also have different levels of intensity.
+However, these intensity differences do not represent any distinction levels, rather they are representatives of the image
+intensity at different parts and linear combination of them produces the original image. Classification accuracy by PCA,
+NNMF, and DEA for component numbers of 8, 16, and 32 (e1-e3). The accuracy for CapsNet, GoogleNet and DenseNet for
+70% training data is 67%, 73% and 79%, respectively.
+
 
