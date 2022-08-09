@@ -1,4 +1,4 @@
-function [m, A, Eigenfaces] = nmf_reduction(Training_Data,reduced_Dim)
+function [m, A, Eigenfaces] = nmf_comp(Training_Data,reduced_Dim)
 
 %----------------------------Calculate the mean image ------------------------
 % ---------------------compute the covariance matrix --------------------------

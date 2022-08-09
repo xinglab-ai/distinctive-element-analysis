@@ -1,15 +1,15 @@
-function [m, A, Eigenfaces,Eig_vec] = EigenfaceCore_TH2(Training_Data,dim)
+function [m, A, Eigenfaces,Eig_vec] = pca_comp(Training_Data,dim)
 
 %----------------------------Calculate the mean image ------------------------
 % ---------------------compute the covariance matrix --------------------------
 m = mean(Training_Data,2);
 Train_Number = size(Training_Data,2);
-temp_m = [];  
-for i = 1 : Train_Number
-    temp_m = [temp_m m];
-end
-A = double(Training_Data) - temp_m;
-
+% temp_m = [];  
+% for i = 1 : Train_Number
+%     temp_m = [temp_m m];
+% end
+%A = double(Training_Data) - temp_m;
+A = double(Training_Data);
 %-------------------use the "svd" function to compute the eigenvectors
 %--------------------and eigenvalues of the covariance matrix.
 disp('Computing...Wait a second please')
