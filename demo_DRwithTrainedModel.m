@@ -1,4 +1,9 @@
 
+% This demo loads the trained models and then 
+% computes the classification performance
+% Please download the data and trained model from Google Drive link
+% https://drive.google.com/drive/folders/1xNvf5tHNHW2dQPmEuyrfEPLtACQSiKoY?usp=sharing
+
 %% Load data and trained models
 load trainedModel.mat
 load data_DR.mat
