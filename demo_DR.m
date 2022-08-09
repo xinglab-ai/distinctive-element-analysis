@@ -4,7 +4,7 @@
 % computes the classification performance
 % If you do not want to train the network, please use
 % demo_DRwithTrainedModel.m, where we used trained model.
-% Please download the data and trained model from Google Drive link
+% Please download the data and trained model from the following Google Drive link
 % https://drive.google.com/drive/folders/1xNvf5tHNHW2dQPmEuyrfEPLtACQSiKoY?usp=sharing
 %% Load data
 load data_DR.mat
