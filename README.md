@@ -1,6 +1,7 @@
 # distinctive-element-analysis
 
 This code is implementation of algorithm presented in "Discovering distinctive elements of biomedical datasets for neuro-inspired exploration, under review, 2021".
+Please run demo_DR.m for full training and classification or demo_DRwithTrainedModel.m for classification with trained model.
 
 # Motivation
 
